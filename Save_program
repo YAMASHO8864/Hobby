@@ -3,6 +3,7 @@
 void savecommand(char fn*){
   fopen("%s.dat","w");
   fprintf("YAMASHO");
+  fclose("%s.dat");
 }
 int main(void){
   char fn[50];
